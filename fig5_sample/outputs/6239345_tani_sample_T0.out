@@ -1,0 +1,315 @@
+
+-------------Run Parameters-------------
+
+Run Info
+--coreactant_list: /home/kms6743/Documents/MINE-Database/minedatabase/data/metacyc_rules/metacyc_coreactants.tsv
+--rule_name: Metacyc_generalized_272_rules
+--input_cpds: inputs/ymdb_smiles_sanitized_600.csv
+
+Expansion Options
+--generations: 5
+--processes: 20
+
+General Filter Options
+--filter_after_final_gen: False
+--react_targets: True
+--prune_to_targets: True
+
+Tanimoto Sampling Filter Options
+--sample_size: 1000
+--weight_representation: T^0
+
+Atomic Composition Filter
+--atomic_composition_constraints: {'C': [0, 14]}
+
+Pickaxe Options
+--verbose: False
+--explicit_h: False
+--kekulize: True
+--neutralise: True
+--image_dir: None
+--quiet: True
+--indexing: False
+----------------------------------------
+
+----------------------------------------
+Intializing pickaxe object
+
+Done intializing pickaxe object
+----------------------------------------
+
+1021 compounds loaded
+250 target compounds loaded
+
+----------------------------------------
+Filtering Generation 0
+
+Applying filter: Atomic Composition
+Filtering Generation 0 with atomic composition {'C': [0, 14]}.
+803 of 1007 compounds remain after applying filter: Atomic Composition--took 0.0s.
+
+Done filtering Generation 0
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 0
+
+Sampling 1000 Compounds Based on a Weighted Similarity Distribution
+Filtering Generation 0 via Similarity Sampling.
+-- Number to sample is less than number of compounds. Returning all compounds.
+num sampled =  803
+803 of 803 compounds selected after Similarity Sampling of generation 0--took 0.05598902702331543s.
+
+Done filtering Generation 0
+----------------------------------------
+
+Pruned network to 846 compounds and 0 reactions based on 846 whitelisted compounds.
+
+----------------------------------------
+Expanding Generation 1
+
+Generation 1: 0 percent complete
+Generation 1: 10 percent complete
+Generation 1: 20 percent complete
+Generation 1: 30 percent complete
+Generation 1: 40 percent complete
+Generation 1: 50 percent complete
+Generation 1: 60 percent complete
+Generation 1: 70 percent complete
+Generation 1: 80 percent complete
+Generation 1: 90 percent complete
+Generation 1: 100 percent complete
+Generation 1 finished in 106.19337582588196 s and contains:
+		146091 new compounds
+		196130 new reactions
+
+Done expanding Generation: 1.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Applying filter: Atomic Composition
+Filtering Generation 1 with atomic composition {'C': [0, 14]}.
+100667 of 146104 compounds remain after applying filter: Atomic Composition--took 0.95s.
+
+Done filtering Generation 1
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Sampling 1000 Compounds Based on a Weighted Similarity Distribution
+Filtering Generation 1 via Similarity Sampling.
+-- Calculating Fingerprints and Similarity Values.
+-- Completed Similarity Calculation in 50.67792987823486
+-- Sampling compounds to expand.
+-- Finished sampling in 0.19232463836669922 s. Recalculated CDF 0 times.
+num sampled =  1000
+852 of 116954 compounds selected after Similarity Sampling of generation 1--took 52.67621445655823s.
+
+Done filtering Generation 1
+----------------------------------------
+
+Pruned network to 17109 compounds and 25878 reactions based on 1768 whitelisted compounds.
+
+----------------------------------------
+Expanding Generation 2
+
+Generation 2: 0 percent complete
+Generation 2: 10 percent complete
+Generation 2: 20 percent complete
+Generation 2: 30 percent complete
+Generation 2: 40 percent complete
+Generation 2: 50 percent complete
+Generation 2: 60 percent complete
+Generation 2: 70 percent complete
+Generation 2: 80 percent complete
+Generation 2: 90 percent complete
+Generation 2: 100 percent complete
+Generation 2 finished in 237.39123392105103 s and contains:
+		314455 new compounds
+		384347 new reactions
+
+Done expanding Generation: 2.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 2
+
+Applying filter: Atomic Composition
+Filtering Generation 2 with atomic composition {'C': [0, 14]}.
+200461 of 314455 compounds remain after applying filter: Atomic Composition--took 3.0s.
+
+Done filtering Generation 2
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 2
+
+Sampling 1000 Compounds Based on a Weighted Similarity Distribution
+Filtering Generation 2 via Similarity Sampling.
+-- Calculating Fingerprints and Similarity Values.
+-- Completed Similarity Calculation in 118.13279008865356
+-- Sampling compounds to expand.
+-- Finished sampling in 0.32107090950012207 s. Recalculated CDF 0 times.
+num sampled =  1000
+827 of 244629 compounds selected after Similarity Sampling of generation 2--took 123.5168092250824s.
+
+Done filtering Generation 2
+----------------------------------------
+
+Pruned network to 39770 compounds and 52436 reactions based on 2604 whitelisted compounds.
+
+----------------------------------------
+Expanding Generation 3
+
+Generation 3: 0 percent complete
+Generation 3: 10 percent complete
+Generation 3: 20 percent complete
+Generation 3: 30 percent complete
+Generation 3: 40 percent complete
+Generation 3: 50 percent complete
+Generation 3: 60 percent complete
+Generation 3: 70 percent complete
+Generation 3: 80 percent complete
+Generation 3: 90 percent complete
+Generation 3 finished in 374.7241988182068 s and contains:
+		433681 new compounds
+		526940 new reactions
+
+Done expanding Generation: 3.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 3
+
+Applying filter: Atomic Composition
+Filtering Generation 3 with atomic composition {'C': [0, 14]}.
+266563 of 433681 compounds remain after applying filter: Atomic Composition--took 4.9s.
+
+Done filtering Generation 3
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 3
+
+Sampling 1000 Compounds Based on a Weighted Similarity Distribution
+Filtering Generation 3 via Similarity Sampling.
+-- Calculating Fingerprints and Similarity Values.
+-- Completed Similarity Calculation in 178.50672960281372
+-- Sampling compounds to expand.
+-- Finished sampling in 0.39593029022216797 s. Recalculated CDF 0 times.
+num sampled =  1000
+812 of 331622 compounds selected after Similarity Sampling of generation 3--took 187.03141522407532s.
+
+Done filtering Generation 3
+----------------------------------------
+
+Pruned network to 64713 compounds and 80191 reactions based on 3419 whitelisted compounds.
+
+----------------------------------------
+Expanding Generation 4
+
+Generation 4: 0 percent complete
+Generation 4: 10 percent complete
+Generation 4: 20 percent complete
+Generation 4: 30 percent complete
+Generation 4: 40 percent complete
+Generation 4: 50 percent complete
+Generation 4: 60 percent complete
+Generation 4: 70 percent complete
+Generation 4: 80 percent complete
+Generation 4: 90 percent complete
+Generation 4: 100 percent complete
+Generation 4 finished in 559.2545027732849 s and contains:
+		511696 new compounds
+		624272 new reactions
+
+Done expanding Generation: 4.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 4
+
+Applying filter: Atomic Composition
+Filtering Generation 4 with atomic composition {'C': [0, 14]}.
+318775 of 511696 compounds remain after applying filter: Atomic Composition--took 6.31s.
+
+Done filtering Generation 4
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 4
+
+Sampling 1000 Compounds Based on a Weighted Similarity Distribution
+Filtering Generation 4 via Similarity Sampling.
+-- Calculating Fingerprints and Similarity Values.
+-- Completed Similarity Calculation in 276.729932308197
+-- Sampling compounds to expand.
+-- Finished sampling in 0.4419443607330322 s. Recalculated CDF 0 times.
+num sampled =  1000
+807 of 390508 compounds selected after Similarity Sampling of generation 4--took 288.2694318294525s.
+
+Done filtering Generation 4
+----------------------------------------
+
+Pruned network to 88526 compounds and 106342 reactions based on 4227 whitelisted compounds.
+
+----------------------------------------
+Expanding Generation 5
+
+Generation 5: 0 percent complete
+Generation 5: 10 percent complete
+Generation 5: 20 percent complete
+Generation 5: 30 percent complete
+Generation 5: 40 percent complete
+Generation 5: 50 percent complete
+Generation 5: 60 percent complete
+Generation 5: 70 percent complete
+Generation 5: 80 percent complete
+Generation 5: 90 percent complete
+Generation 5 finished in 747.9904549121857 s and contains:
+		591036 new compounds
+		723479 new reactions
+
+Done expanding Generation: 5.
+----------------------------------------
+
+----------------------------------------
+Pruning to 250 target compounds
+Pruned network to 9167 compounds and 10819 reactions based on 250 whitelisted compounds.
+
+Found 100 targets.
+Pruning took 1.7729206085205078s
+----------------------------------------
+
+
+----------------------------------------
+Writing results to YMDB_cutoff_T0 Database
+----------------------------------------
+
+--------------- Reactions --------------
+Writing Reactions: Chunk 0 of 2
+Wrote Reactions in 0.4440727233886719 seconds.
+----------------------------------------
+
+--------------- Compounds --------------
+Writing Compounds: Chunk 0 of 1
+Wrote Compounds in 7.220424175262451 seconds.
+----------------------------------------
+
+--------------- Targets ----------------
+Writing Targets: Chunk 0 of 1
+Wrote Target Compounds in 0.012428760528564453 seconds.
+-------------- Operators ---------------
+Done with Operators Overall--took 0.05148744583129883 seconds.
+----------------------------------------
+
+-------------- Overall ---------------
+Finished uploading everything in 7.731353521347046 sec
+----------------------------------------
+
+----------------------------------------
+Overall run took 2705.69 seconds.
+----------------------------------------

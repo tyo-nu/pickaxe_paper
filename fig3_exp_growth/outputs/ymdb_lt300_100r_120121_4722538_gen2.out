@@ -1,0 +1,81 @@
+
+-------------Run Parameters-------------
+
+Run Info
+--coreactant_list: /home/kms6743/Documents/MINE-Database/minedatabase/data/metacyc_rules/metacyc_coreactants.tsv
+--rule_name: Metacyc_generalized_100_rules
+--input_cpds: inputs/ymdb_smiles_sanitized_300.csv
+
+Expansion Options
+--generations: 2
+--processes: 40
+
+General Filter Options
+--filter_after_final_gen: False
+--react_targets: True
+--prune_to_targets: True
+
+Pickaxe Options
+--verbose: False
+--explicit_h: False
+--kekulize: True
+--neutralise: True
+--image_dir: None
+--quiet: True
+--indexing: False
+----------------------------------------
+
+----------------------------------------
+Intializing pickaxe object
+
+Done intializing pickaxe object
+----------------------------------------
+
+Warning: could not load compound: Cn1c[nH]c2nc(N)nc(=O)c21
+Warning: could not load compound: Nc1nc(=O)c2[nH]c[nH]c2n1
+728 compounds loaded...
+(720 after removing stereochemistry)
+----------------------------------------
+Expanding Generation 1
+
+Generation 1: 0 percent complete
+Generation 1: 10 percent complete
+Generation 1: 20 percent complete
+Generation 1: 30 percent complete
+Generation 1: 40 percent complete
+Generation 1: 50 percent complete
+Generation 1: 60 percent complete
+Generation 1: 70 percent complete
+Generation 1: 80 percent complete
+Generation 1: 90 percent complete
+Generation 1 finished in 22.051764726638794 s and contains:
+		52488 new compounds
+		70327 new reactions
+
+Done expanding Generation: 1.
+----------------------------------------
+
+----------------------------------------
+Expanding Generation 2
+
+Generation 2: 0 percent complete
+Generation 2: 10 percent complete
+Generation 2: 20 percent complete
+Generation 2: 30 percent complete
+Generation 2: 40 percent complete
+Generation 2: 50 percent complete
+Generation 2: 60 percent complete
+Generation 2: 70 percent complete
+Generation 2: 80 percent complete
+Generation 2: 90 percent complete
+Generation 2: 100 percent complete
+Generation 2 finished in 32594.6162211895 s and contains:
+		7456106 new compounds
+		12016038 new reactions
+
+Done expanding Generation: 2.
+----------------------------------------
+
+----------------------------------------
+Overall run took 32617.26 seconds.
+----------------------------------------

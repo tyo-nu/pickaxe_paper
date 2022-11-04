@@ -1,0 +1,1 @@
+/var/spool/slurmd/job6286102/slurm_script: line 15: 24465 Bus error               (core dumped) python ecoli_metfilter.py

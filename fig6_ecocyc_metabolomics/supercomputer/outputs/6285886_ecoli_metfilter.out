@@ -1,0 +1,38 @@
+
+-------------Run Parameters-------------
+
+Run Info
+--coreactant_list: /home/kms6743/Documents/MINE-Database/minedatabase/data/metacyc_rules/metacyc_coreactants.tsv
+--rule_name: Metacyc_generalized_100_rules
+--input_cpds: ./inputs/ecocyc_smiles_sanitized_600.csv
+
+Expansion Options
+--generations: 2
+--processes: 20
+
+General Filter Options
+--filter_after_final_gen: True
+--react_targets: False
+--prune_to_targets: False
+
+Metabolomics Filter Options
+--met_data_path: ./inputs/sauer_untargeted_peak_list.csv
+--met_data_name: Ecoli Suaer Dataset
+--possible_adducts: ['[M+F]-', '[M-H]-']
+--mass_tolerance: 0.001
+
+Pickaxe Options
+--verbose: False
+--explicit_h: False
+--kekulize: True
+--neutralise: True
+--quiet: True
+--indexing: False
+----------------------------------------
+
+----------------------------------------
+Intializing pickaxe object
+
+Done intializing pickaxe object
+----------------------------------------
+

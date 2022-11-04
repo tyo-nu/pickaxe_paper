@@ -1,0 +1,188 @@
+
+-------------Run Parameters-------------
+
+Run Info
+--coreactant_list: /home/kms6743/Documents/MINE-Database/minedatabase/data/metacyc_rules/metacyc_coreactants.tsv
+--rule_name: Metacyc_generalized_0,9_fraction_coverage
+--input_cpds: inputs/ymdb_smiles_sanitized_600.csv
+
+Expansion Options
+--generations: 2
+--processes: 40
+
+General Filter Options
+--filter_after_final_gen: False
+--react_targets: True
+--prune_to_targets: True
+
+Tanimoto Threshold Filter Options
+--tani_threshold: 0.6
+--increasing_tani: False
+
+Atomic Composition Filter
+--atomic_composition_constraints: {'C': [0, 10]}
+
+Pickaxe Options
+--verbose: False
+--explicit_h: False
+--kekulize: False
+--neutralise: True
+--image_dir: None
+--quiet: True
+--indexing: False
+----------------------------------------
+
+----------------------------------------
+Intializing pickaxe object
+
+Done intializing pickaxe object
+----------------------------------------
+
+Warning: could not load compound: Cn1c[nH]c2nc(N)nc(=O)c21
+Warning: could not load compound: Nc1nc(=O)c2[nH]c[nH]c2n1
+1019 compounds loaded...
+(1005 after removing stereochemistry)
+250 target compounds loaded
+
+----------------------------------------
+Filtering Generation 0
+
+Applying filter: Atomic Composition
+Filtering Generation 0 with atomic composition {'C': [0, 10]}.
+703 of 1005 compounds remain after applying filter: Atomic Composition--took 0.0s.
+
+Done filtering Generation 0
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 0
+
+Applying filter: Similarity Cutoff
+Filtering Generation 0 with similarity > 0.6.
+Similarity filter progress: 0 percent complete
+Similarity filter progress: 10 percent complete
+Similarity filter progress: 20 percent complete
+Similarity filter progress: 30 percent complete
+Similarity filter progress: 40 percent complete
+Similarity filter progress: 50 percent complete
+Similarity filter progress: 60 percent complete
+Similarity filter progress: 70 percent complete
+Similarity filter progress: 80 percent complete
+Similarity filter progress: 90 percent complete
+Similarity filter progress: 100 percent complete
+Similarity filter progress: 100 percent complete
+159 of 703 compounds selected after Similarity filtering of generation 0 at cutoff of 0.6. --took 2.74s.
+
+Done filtering Generation 0
+----------------------------------------
+
+----------------------------------------
+Expanding Generation 1
+
+Generation 1: 0 percent complete
+Generation 1: 10 percent complete
+Generation 1: 20 percent complete
+Generation 1: 30 percent complete
+Generation 1: 40 percent complete
+Generation 1: 50 percent complete
+Generation 1: 60 percent complete
+Generation 1: 70 percent complete
+Generation 1: 81 percent complete
+Generation 1: 91 percent complete
+Generation 1 finished in 18.56143546104431 s and contains:
+		33808 new compounds
+		62434 new reactions
+
+Done expanding Generation: 1.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Applying filter: Atomic Composition
+Filtering Generation 1 with atomic composition {'C': [0, 10]}.
+20421 of 33809 compounds remain after applying filter: Atomic Composition--took 0.29s.
+
+Done filtering Generation 1
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Applying filter: Similarity Cutoff
+Filtering Generation 1 with similarity > 0.6.
+Similarity filter progress: 0 percent complete
+Similarity filter progress: 10 percent complete
+Similarity filter progress: 20 percent complete
+Similarity filter progress: 30 percent complete
+Similarity filter progress: 40 percent complete
+Similarity filter progress: 50 percent complete
+Similarity filter progress: 60 percent complete
+Similarity filter progress: 70 percent complete
+Similarity filter progress: 80 percent complete
+Similarity filter progress: 90 percent complete
+Similarity filter progress: 100 percent complete
+5185 of 24829 compounds selected after Similarity filtering of generation 1 at cutoff of 0.6. --took 3.66s.
+
+Done filtering Generation 1
+----------------------------------------
+
+----------------------------------------
+Expanding Generation 2
+
+Generation 2: 0 percent complete
+Generation 2: 10 percent complete
+Generation 2: 20 percent complete
+Generation 2: 30 percent complete
+Generation 2: 40 percent complete
+Generation 2: 50 percent complete
+Generation 2: 60 percent complete
+Generation 2: 70 percent complete
+Generation 2: 80 percent complete
+Generation 2: 90 percent complete
+Generation 2: 100 percent complete
+Generation 2 finished in 1901.7305970191956 s and contains:
+		1497405 new compounds
+		3154478 new reactions
+
+Done expanding Generation: 2.
+----------------------------------------
+
+----------------------------------------
+Pruning to 250 target compounds
+Pruned network to 98788 compounds and 318480 reactions based on 250 whitelisted compounds.
+
+Found 224 targets.
+Pruning took 18.61679220199585s
+----------------------------------------
+
+
+----------------------------------------
+Writing results to kms_YMDB_cutoff_0,6t Database
+----------------------------------------
+
+--------------- Reactions --------------
+Writing Reactions: Chunk 0 of 32
+Writing Reactions: Chunk 20 of 32
+Wrote Reactions in 11.006819486618042 seconds.
+----------------------------------------
+
+--------------- Compounds --------------
+Writing Compounds: Chunk 0 of 10
+Wrote Compounds in 34.163196325302124 seconds.
+----------------------------------------
+
+--------------- Targets ----------------
+Writing Targets: Chunk 0 of 1
+Wrote Target Compounds in 0.01671290397644043 seconds.
+-------------- Operators ---------------
+Done with Operators Overall--took 0.6761791706085205 seconds.
+----------------------------------------
+
+-------------- Overall ---------------
+Finished uploading everything in 45.86697578430176 sec
+----------------------------------------
+
+----------------------------------------
+Overall run took 1992.85 seconds.
+----------------------------------------

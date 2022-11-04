@@ -1,0 +1,198 @@
+
+-------------Run Parameters-------------
+
+Run Info
+--coreactant_list: /home/kms6743/Documents/MINE-Database/minedatabase/data/metacyc_rules/metacyc_coreactants.tsv
+--rule_name: Metacyc_generalized_0,9_fraction_coverage
+--input_cpds: inputs/ymdb_smiles_sanitized_600.csv
+
+Expansion Options
+--generations: 2
+--processes: 40
+
+General Filter Options
+--filter_after_final_gen: False
+--react_targets: True
+--prune_to_targets: True
+
+Tanimoto Threshold Filter Options
+--tani_threshold: 0.4
+--increasing_tani: False
+
+Atomic Composition Filter
+--atomic_composition_constraints: {'C': [0, 10]}
+
+Pickaxe Options
+--verbose: False
+--explicit_h: False
+--kekulize: False
+--neutralise: True
+--image_dir: None
+--quiet: True
+--indexing: False
+----------------------------------------
+
+----------------------------------------
+Intializing pickaxe object
+
+Done intializing pickaxe object
+----------------------------------------
+
+Warning: could not load compound: Cn1c[nH]c2nc(N)nc(=O)c21
+Warning: could not load compound: Nc1nc(=O)c2[nH]c[nH]c2n1
+1019 compounds loaded...
+(1005 after removing stereochemistry)
+250 target compounds loaded
+
+----------------------------------------
+Filtering Generation 0
+
+Applying filter: Atomic Composition
+Filtering Generation 0 with atomic composition {'C': [0, 10]}.
+703 of 1005 compounds remain after applying filter: Atomic Composition--took 0.0s.
+
+Done filtering Generation 0
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 0
+
+Applying filter: Similarity Cutoff
+Filtering Generation 0 with similarity > 0.4.
+Similarity filter progress: 0 percent complete
+Similarity filter progress: 10 percent complete
+Similarity filter progress: 20 percent complete
+Similarity filter progress: 30 percent complete
+Similarity filter progress: 40 percent complete
+Similarity filter progress: 50 percent complete
+Similarity filter progress: 60 percent complete
+Similarity filter progress: 70 percent complete
+Similarity filter progress: 80 percent complete
+Similarity filter progress: 90 percent complete
+Similarity filter progress: 100 percent complete
+Similarity filter progress: 100 percent complete
+335 of 703 compounds selected after Similarity filtering of generation 0 at cutoff of 0.4. --took 2.73s.
+
+Done filtering Generation 0
+----------------------------------------
+
+----------------------------------------
+Expanding Generation 1
+
+Generation 1: 0 percent complete
+Generation 1: 10 percent complete
+Generation 1: 20 percent complete
+Generation 1: 30 percent complete
+Generation 1: 41 percent complete
+Generation 1: 51 percent complete
+Generation 1: 61 percent complete
+Generation 1: 71 percent complete
+Generation 1: 81 percent complete
+Generation 1: 91 percent complete
+Generation 1 finished in 34.33762168884277 s and contains:
+		67397 new compounds
+		126189 new reactions
+
+Done expanding Generation: 1.
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Applying filter: Atomic Composition
+Filtering Generation 1 with atomic composition {'C': [0, 10]}.
+40971 of 67399 compounds remain after applying filter: Atomic Composition--took 0.62s.
+
+Done filtering Generation 1
+----------------------------------------
+
+----------------------------------------
+Filtering Generation 1
+
+Applying filter: Similarity Cutoff
+Filtering Generation 1 with similarity > 0.4.
+Similarity filter progress: 0 percent complete
+Similarity filter progress: 10 percent complete
+Similarity filter progress: 20 percent complete
+Similarity filter progress: 30 percent complete
+Similarity filter progress: 40 percent complete
+Similarity filter progress: 50 percent complete
+Similarity filter progress: 60 percent complete
+Similarity filter progress: 70 percent complete
+Similarity filter progress: 80 percent complete
+Similarity filter progress: 90 percent complete
+Similarity filter progress: 100 percent complete
+Similarity filter progress: 100 percent complete
+23942 of 49813 compounds selected after Similarity filtering of generation 1 at cutoff of 0.4. --took 4.43s.
+
+Done filtering Generation 1
+----------------------------------------
+
+----------------------------------------
+Expanding Generation 2
+
+Generation 2: 0 percent complete
+Generation 2: 10 percent complete
+Generation 2: 20 percent complete
+Generation 2: 30 percent complete
+Generation 2: 40 percent complete
+Generation 2: 50 percent complete
+Generation 2: 60 percent complete
+Generation 2: 70 percent complete
+Generation 2: 80 percent complete
+Generation 2: 90 percent complete
+Generation 2: 100 percent complete
+Generation 2 finished in 28141.021609544754 s and contains:
+		5973652 new compounds
+		13414832 new reactions
+
+Done expanding Generation: 2.
+----------------------------------------
+
+----------------------------------------
+Pruning to 250 target compounds
+Pruned network to 569831 compounds and 1796193 reactions based on 250 whitelisted compounds.
+
+Found 234 targets.
+Pruning took 186.34561896324158s
+----------------------------------------
+
+
+----------------------------------------
+Writing results to kms_YMDB_cutoff_0,4t Database
+----------------------------------------
+
+--------------- Reactions --------------
+Writing Reactions: Chunk 0 of 180
+Writing Reactions: Chunk 20 of 180
+Writing Reactions: Chunk 40 of 180
+Writing Reactions: Chunk 60 of 180
+Writing Reactions: Chunk 80 of 180
+Writing Reactions: Chunk 100 of 180
+Writing Reactions: Chunk 120 of 180
+Writing Reactions: Chunk 140 of 180
+Writing Reactions: Chunk 160 of 180
+Wrote Reactions in 90.79068112373352 seconds.
+----------------------------------------
+
+--------------- Compounds --------------
+Writing Compounds: Chunk 0 of 57
+Writing Compounds: Chunk 20 of 57
+Writing Compounds: Chunk 40 of 57
+Wrote Compounds in 152.92616748809814 seconds.
+----------------------------------------
+
+--------------- Targets ----------------
+Writing Targets: Chunk 0 of 1
+Wrote Target Compounds in 0.01508784294128418 seconds.
+-------------- Operators ---------------
+Done with Operators Overall--took 1.0762865543365479 seconds.
+----------------------------------------
+
+-------------- Overall ---------------
+Finished uploading everything in 244.81168389320374 sec
+----------------------------------------
+
+----------------------------------------
+Overall run took 28615.6 seconds.
+----------------------------------------
