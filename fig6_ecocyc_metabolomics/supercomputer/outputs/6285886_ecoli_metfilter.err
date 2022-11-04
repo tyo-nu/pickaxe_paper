@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "ecoli_metfilter.py", line 413, in <module>
-    pk.load_compound_set(compound_file=input_cpds, id_field="ID")
-  File "/home/kms6743/Documents/MINE-Database/minedatabase/pickaxe.py", line 308, in load_compound_set
-    cpd_name = cpd_dict[id_field]
-KeyError: 'ID'

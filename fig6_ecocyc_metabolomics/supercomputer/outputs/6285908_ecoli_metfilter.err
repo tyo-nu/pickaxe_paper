@@ -1,2 +1,0 @@
-slurmstepd: error: *** JOB 6285908 ON qnode0006 CANCELLED AT 2021-06-23T15:08:56 DUE TO TIME LIMIT ***
-slurmstepd: error: Detected 17 oom-kill event(s) in step 6285908.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

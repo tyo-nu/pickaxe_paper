@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "ecoli_metfilter.py", line 18, in <module>
-    import pymongo
-ModuleNotFoundError: No module named 'pymongo'
